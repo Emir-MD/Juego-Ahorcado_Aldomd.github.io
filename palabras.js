@@ -1,0 +1,1 @@
+const arregloPalabras = ["CASA", "CAMA","COMPUTADORA","JUEGO","HOLA","LEON","TIGRE","INGENIERO", "CHALLENGE"]

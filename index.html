@@ -1,0 +1,53 @@
+<DOCTYPE html!>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>AHORCADO</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+
+            
+        </head>
+        <body>
+            <style>
+                textarea {
+                  resize: none;
+                }
+                </style>
+    
+            <main class="centro">
+                <img class="centro" src="img/fondo.jpg">
+    
+                <img class="logo" src="img/logo.png"></img>
+    
+                    <main class = "autoLayout">
+                        <label class="title">JUEGO DEL AHORCADO</label>
+                        <button class="button" id = "btn_jugar">
+                            <a href="juego.html">
+                                <label class = "texttobutton">Inicia el juego</label>
+                            </a>
+                        </button>
+                        <br><br><br><br>
+                        <textarea onkeyup="this.value = this.value.toUpperCase();" class="textArea" id = "nuevaPalabra" placeholder="Escriba una nueva palabra." ></textarea>   
+                                <button onclick="agregandoPalabra()" class="button1" id="btn_addword">
+                                    <label class="texttobutton">Agrega una Palabra</label>
+
+                                </button>
+                    </main>
+    
+                    
+                </img>
+            </main>
+    
+    
+        <script src="palabras.js"></script>
+        <script src="js.js"></script>
+       
+        </body>
+        <p class="creditos">
+            By Aldo Morante Oracle next Education!
+          </p>
+    </html>     
